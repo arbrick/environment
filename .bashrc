@@ -15,6 +15,7 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias ls='ls -Fh --color=auto --group-directories-first'
 alias grep='grep --color=auto'
+alias lcp='rsync -rpogt --update --append --ignore-existing --progress'
 
 alias ..='cd ..'
 alias ...='cd ../..'
